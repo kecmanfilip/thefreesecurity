@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "services": "Usluge",
+    "team": "Tim",
+    "blog": "Blog",
+    "caseStudies": "Studije slučaja",
+    "careers": "Karijere",
+    "contact": "Kontakt",
+    "langToggle": "EN"
+  },
+  "hero": {
+    "headline": "Sajber bezbednost za one koji je ne mogu priuštiti.",
+    "subheadline": "The Free Security je neprofitna organizacija koja pomaže malim i srednjim preduzećima u regionu bivše Jugoslavije da se zaštite od sajber napada, čak i kada nemaju budžet za to.",
+    "ctaPrimary": "Besplatna procena",
+    "ctaSecondary": "Naše usluge",
+    "tickerLabel": "Naše usluge:",
+    "tickerItems": [
+      "Penetration testing web aplikacija",
+      "Obuka o sajber bezbednosti",
+      "Pentesting infrastrukture",
+      "Bezbednosne politike",
+      "Analiza digitalnog otiska",
+      "Konsalting i mentorstvo"
+    ]
+  },
+  "about": {
+    "title": "Ko smo mi?",
+    "pageTitle": "Ko je The Free Security i zašto postoji?",
+    "missionTitle": "Misija",
+    "missionText": "Naša misija je da malim i srednjim preduzećima u regionu bivše Jugoslavije koja nemaju budžet za komercijalnu sajber bezbednost pružimo praktičnu zaštitu od realnih pretnji.",
+    "visionTitle": "Vizija",
+    "visionText": "Vizija nam je region u kome nijedno malo preduzeće nije laka meta za napadače samo zato što nema novca za zaštitu.",
+    "stat": "12+ osoba obučeno",
+    "learnMore": "Saznaj više o nama",
+    "heroDesc": "Neprofitna organizacija koja pomaže malim preduzećima u regionu bivše Jugoslavije da se zaštite od sajber napada, čak i kada nemaju budžet za to.",
+    "whyExistTitle": "Zašto postojimo?",
+    "whyExistP1": "Sajber napadi ne diskriminišu. Ransomver ne pita da li ste neprofitna organizacija pre nego što šifruje vaše podatke. Phishing ne preskače mala preduzeća jer imaju mali budžet.",
+    "whyExistP2": "A ipak, komercijalne usluge sajber bezbednosti su dostupne samo onima koji mogu da ih plate. Procena za malu kompaniju košta između 2.000 i 10.000 evra. Za organizaciju sa ograničenim budžetom to je nemoguće.",
+    "whyExistP3": "The Free Security je nastao da premosti taj jaz. Ako kompanija stvarno nema budžet za zaštitu, mi smo tu. Ako, pak, ima resurse ali ne želi da ih uloži u bezbednost, upućujemo je ka profesionalnim partnerima koji rade komercijalne pentest angažmane. Nismo zamena za profesionalne pentestere, ali smo prava podrška za one kojima komercijalne usluge nisu dostupne.",
+    "whatWeDoTitle": "Šta radimo?",
+    "whatWeDoItems": ["Penetration testing web aplikacija", "Obuka timova i pojedinaca o sajber bezbednosti", "Pentesting i analiza javne infrastrukture", "Izrada bezbednosnih politika i planova za incidente", "Analiza digitalnog otiska (OSINT)", "Konsalting i mentorstvo za organizacije"],
+    "foundingTitle": "Kako smo nastali?",
+    "foundingP1": "Filip Kecman, osnivač i izvršni direktor, prepoznao je jaz između potrebe za sajber zaštitom i dostupnosti profesionalnih usluga za organizacije bez velikih budžeta.",
+    "foundingP2": "Zajedno sa Damjanom Cvetanovićem, koji donosi godinama iskustva kao savetnik, i Dušanom Jevtićem kao mentorom i trenerom, tim je stvorio strukturu koja kombinuje profesionalne standarde sa neprofitnom misijom.",
+    "foundingP3": "Danas, The Free Security ima tim od 12+ aktivnih stažista i volontera koji zajedno rade na projektima, uče pod mentorstvom iskusnih stručnjaka i doprinose bezbednijem digitalnom prostoru.",
+    "whoWeAreTitle": "Ko smo mi?",
+    "whoWeAreP1": "Nismo komercijalna firma niti tim iskusnih etičkih hakera koji rade za džabe. The Free Security je organizacija koja vodi studente testiranja bezbednosti kroz stvarne projekte, pod direktnim mentorstvom iskusnih stručnjaka. Studenti rade pentest angažmane, uče na realnim slučajevima i direktno doprinose bezbednosti klijenata.",
+    "whoWeAreP2": "Ono što nas pokreće je zajednički cilj: da nijedno malo preduzeće u regionu ne ostane nezaštićeno samo zato što ne može da plati komercijalnu cenu.",
+    "whyChooseTitle": "Zašto nas izabrati?",
+    "whyChoose": {
+      "free": { "title": "Besplatno za one kojima treba", "desc": "Radimo besplatno sa organizacijama koje nemaju budžet za komercijalnu zaštitu. Ostale upućujemo ka pravim partnerima." },
+      "expert": { "title": "Stručan tim", "desc": "Mentori sa iskustvom u industrijskoj i ofanzivnoj bezbednosti." },
+      "practical": { "title": "Praktičan pristup", "desc": "Rezultate prikazujemo jasno, bez tehničkog žargona." },
+      "privacy": { "title": "Poverljivost", "desc": "Svi podaci klijenata su strogo poverljivi." },
+      "tailored": { "title": "Prilagođeno vama", "desc": "Svaka usluga je prilagođena vašim specifičnim potrebama." },
+      "transparency": { "title": "Transparentnost", "desc": "Otvoreni smo o metodologiji i rezultatima." }
+    },
+    "trainingTitle": "Kako obučavamo?",
+    "trainingP1": "Naš program obuke je dizajniran za praktično učenje. Polaznici ne slušaju samo teoriju, nego rade na stvarnim pentest projektima sa stvarnim klijentima, pod direktnim nadzorom iskusnih mentora.",
+    "trainingP2": "Program je prilagođen polaznicima koji žele da uđu u oblast testiranja bezbednosti. Radi se o studentima i početnicima koji izgrađuju veštine kroz angažmane na realnim slučajevima, a ne u simuliranim okruženjima.",
+    "trainingP3": "Polaznici dobijaju preporuku i portfolio radova koji dokazuju njihove veštine i otvaraju vrata karijere u sajber bezbednosti.",
+    "ctaTitle": "Želite da se uključite?",
+    "ctaDesc": "Bilo da trebate pomoć ili želite da doprinesete, tu smo.",
+    "openPositions": "Otvorene pozicije"
+  },
+  "services": {
+    "title": "Naše usluge",
+    "subtitle": "Besplatno za MSP i organizacije u regionu bivše Jugoslavije koje nemaju budžet za komercijalnu zaštitu.",
+    "viewAll": "Sve usluge",
+    "cta": "Zatraži besplatno",
+    "notSure": "Niste sigurni koja usluga vam treba?",
+    "contactDesc": "Kontaktirajte nas i zajedno ćemo proceniti vaše potrebe, besplatno i bez obaveza.",
+    "letsTalk": "Razgovarajmo",
+    "items": {
+      "webApp": {
+        "title": "Testiranje bezbednosti web aplikacija",
+        "description": "Sveobuhvatna procena bezbednosti vaših web aplikacija. Identifikujemo OWASP Top 10 ranjivosti, logičke greške i konfiguracije koje napadači mogu iskoristiti pre nego što to oni urade.",
+        "details": ["OWASP Top 10 analiza", "Testiranje autentifikacije i autorizacije", "SQL injekcija i XSS testiranje", "Business logic ranjivosti", "API security testing", "Detaljan izveštaj sa prioritizovanim preporukama"]
+      },
+      "training": {
+        "title": "Obuka o sajber bezbednosti",
+        "description": "Praktična obuka prilagođena vašem timu ili organizaciji. Od osnova digitalne higijene do naprednih tehnika, učimo vas kako da prepoznate i odgovorite na pretnje.",
+        "details": ["Prilagođeni kurikulum za vaš tim", "Osnove digitalne higijene", "Prepoznavanje phishing napada", "Bezbedna upotreba lozinki i 2FA", "Odgovor na incidente", "Praktične vežbe i simulacije"]
+      },
+      "infra": {
+        "title": "Skeniranje javne infrastrukture",
+        "description": "Pasivno i aktivno skeniranje vaše javne digitalne površine napada. Otkrivamo otvorene portove, zastarele servise i pogrešno konfigurisane sisteme pre nego što ih napadači pronađu.",
+        "details": ["Skeniranje otvorenih portova i servisa", "Detekcija zastarelih softvera", "SSL/TLS konfiguracija", "DNS analiza", "Email bezbednost (SPF, DKIM, DMARC)", "Izveštaj sa preporukama"]
+      },
+      "policy": {
+        "title": "Bezbednosne politike i planovi za incidente",
+        "description": "Pomažemo vam da kreirate jasne bezbednosne politike i planove za odgovor na incidente. Kada se napad dogodi, znate tačno šta da radite.",
+        "details": ["Politika informacione bezbednosti", "Plan odgovora na incidente", "Politika lozinki i pristupa", "BYOD politika", "Procedura za backup i oporavak", "Trening zaposlenih"]
+      },
+      "footprint": {
+        "title": "Analiza digitalnog otiska",
+        "description": "Otkrivamo šta je javno dostupno o vama ili vašoj organizaciji na internetu. Napadači koriste te informacije u fazama izviđanja, a mi vam pomažemo da smanjite izloženost. OSINT analiza bez skrivenih troškova.",
+        "details": ["Pasivno OSINT prikupljanje", "Analiza procurenih podataka", "Mapiranje javno dostupnih informacija", "Analiza društvenih mreža i domena", "Shodan i Censys analiza", "Izveštaj sa preporukama za smanjenje otiska"]
+      },
+      "consulting": {
+        "title": "Konsalting i mentorstvo u sajber bezbednosti",
+        "description": "Stručno savetovanje za organizacije koje žele da unaprede svoju bezbednosnu kulturu. Naši mentori su tu da vas vode kroz kompleksne odluke i izgradnju tima.",
+        "details": ["Strateški bezbednosni plan", "Procena zrelosti bezbednosti", "Savetovanje pri kupovini bezbednosnih alata", "Mentorstvo IT timova", "Priprema za sertifikacije", "Kontinuirana podrška"]
+      }
+    }
+  },
+  "whyJoin": {
+    "title": "Zašto se pridružiti?",
+    "subtitle": "Naš program obuke pruža stvarno iskustvo u svetu sajber bezbednosti.",
+    "practical": {
+      "title": "Praktično učenje",
+      "desc": "Radite na stvarnim projektima i slučajevima, ne samo teoriji. Stičete iskustvo koje možete pokazati poslodavcima."
+    },
+    "mentorship": {
+      "title": "Stručno mentorstvo",
+      "desc": "Radite direktno sa iskusnim stručnjacima u oblasti sajber bezbednosti koji vas vode kroz svaki korak."
+    },
+    "experience": {
+      "title": "Stvarno iskustvo",
+      "desc": "Dobijate sertifikate i preporuke koje potvrđuju vaše veštine. Gradite portfolio koji otvara vrata karijere."
+    }
+  },
+  "faq": {
+    "title": "Često postavljana pitanja",
+    "q1": "Da li su vaše usluge zaista besplatne?",
+    "a1": "Naše usluge su besplatne za mala i srednja preduzeća i organizacije u regionu bivše Jugoslavije koja zaista nemaju budžet za komercijalnu sajber bezbednost. Kompanije koje imaju resurse, ali ne žele da ih ulože u zaštitu, upućujemo ka profesionalnim partnerima koji rade komercijalne pentest angažmane.",
+    "q2": "Ko može da koristi vaše usluge?",
+    "a2": "Radimo sa malim i srednjim preduzećima na području bivše Jugoslavije koja su laka meta za napadače upravo zato što nemaju budžet za zaštitu. Ako organizacija ima sredstva za komercijalnu bezbednost, nismo pravo rešenje za nju, ali rado je uputimo ka pravim profesionalcima.",
+    "q3": "Kako da zahtevam uslugu?",
+    "a3": "Jednostavno popunite kontakt formu na stranici /kontakt ili nas direktno kontaktirajte putem email adrese. Odgovaramo u roku od 48 sati radnim danima.",
+    "q4": "Da li nudite obuku za početnike?",
+    "a4": "Da! Naš program obuke je dizajniran za sve nivoe, od potpunih početnika do iskusnih IT profesionalaca koji žele da uđu u oblast sajber bezbednosti. Prilagođavamo sadržaj vašem predznanju.",
+    "q5": "Kako mogu da se pridružim kao volonter ili stažist?",
+    "a5": "Pogledajte našu stranicu Karijere gde su objavljene otvorene pozicije. Tražimo etičke hakere, marketing stručnjake i business development partnere. Sve pozicije su volonterske ili sa simboličnom naknadom."
+  },
+  "contactCta": {
+    "title": "Spremi se za zaštitu",
+    "text": "Kontaktirajte nas danas i dobijte besplatnu procenu vaše sajber bezbednosti.",
+    "btn": "Kontaktirajte nas"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Popunite formu i odgovorićemo u roku od 48 sati radnim danima.",
+    "name": "Ime i prezime",
+    "email": "Email adresa",
+    "message": "Poruka",
+    "send": "Pošalji poruku",
+    "sending": "Slanje...",
+    "success": "Hvala! Vaša poruka je uspešno poslata. Odgovorićemo uskoro.",
+    "error": "Došlo je do greške. Pokušajte ponovo ili nas kontaktirajte direktno.",
+    "directEmail": "Ili nas kontaktirajte direktno:",
+    "thankYou": "Hvala!",
+    "sendNew": "Pošalji novu poruku",
+    "namePlaceholder": "Vaše ime i prezime",
+    "emailPlaceholder": "vas@email.com",
+    "messagePlaceholder": "Opišite šta vam treba ili postavite pitanje...",
+    "emailSubject": "Nova poruka"
+  },
+  "team": {
+    "title": "Naš tim",
+    "subtitle": "Stručnjaci i entuzijasti koji zajedno grade slobodniji digitalni svet.",
+    "mentors": "Mentori i osnivači",
+    "members": "Članovi tima",
+    "notFound": "Član tima nije pronađen",
+    "backToTeam": "Nazad na tim",
+    "memberBioFallback": "je aktivan član tima The Free Security, doprinosi projektima kao",
+    "contact": "Kontaktirajte nas",
+    "role": {
+      "founder": "Osnivač i Izvršni Direktor",
+      "advisor": "Savetnik",
+      "mentor": "Mentor i Trener",
+      "pentester": "Penetration Tester Praktikant",
+      "pentesterFull": "Penetration Tester"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Uvidi, analize i edukativni sadržaj iz sveta sajber bezbednosti.",
+    "readMore": "Pročitaj više",
+    "by": "Autor:",
+    "published": "Objavljeno",
+    "notFound": "Članak nije pronađen",
+    "allArticles": "Svi članci",
+    "question": "Imate pitanje? Kontaktirajte nas"
+  },
+  "caseStudies": {
+    "title": "Studije slučaja",
+    "comingSoon": "Studije slučaja dolaze uskoro",
+    "text": "Dokumentujemo naše projekte i uspehe. Uskoro ćete moći da pročitate o konkretnim slučajevima gde smo pomogili organizacijama da se zaštite.",
+    "cta": "Kontaktirajte nas"
+  },
+  "careers": {
+    "title": "Karijere",
+    "subtitle": "Pridruži se timu koji menja sajber bezbednosnu scenu na Balkanu.",
+    "remote": "Remote",
+    "readMore": "Pročitaj više",
+    "apply": "Apliciraj",
+    "notFound": "Pozicija nije pronađena",
+    "backToCareers": "Nazad na karijere",
+    "responsibilities": "Odgovornosti",
+    "requirements": "Šta tražimo",
+    "benefits": "Šta dobijate",
+    "allPositions": "Sve pozicije",
+    "applyNow": "Apliciraj sada",
+    "noPosition": "Ne vidite poziciju koja vam odgovara?",
+    "openApplication": "Pošaljite nam otvorenu prijavu, uvek tražimo talentovane ljude.",
+    "sendOpen": "Pošalji otvorenu prijavu"
+  },
+  "footer": {
+    "tagline": "Sajber bezbednost za one koji je ne mogu priuštiti.",
+    "quickLinks": "Brzi linkovi",
+    "contact": "Kontakt",
+    "legal": "Pravne informacije",
+    "mb": "MB",
+    "pib": "PIB",
+    "copyright": "© 2025 The Free Security. Sva prava zadržana.",
+    "nonprofit": "Neprofitna organizacija registrovana u Republici Srbiji."
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju tražite ne postoji ili je premeštena.",
+    "back": "Povratak na početnu"
+  },
+  "breadcrumb": {
+    "home": "Početna"
+  }
+}

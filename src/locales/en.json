@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Team",
+    "blog": "Blog",
+    "caseStudies": "Case Studies",
+    "careers": "Careers",
+    "contact": "Contact",
+    "langToggle": "SR"
+  },
+  "hero": {
+    "headline": "Cybersecurity for those who can't afford it.",
+    "subheadline": "The Free Security is a nonprofit organization helping small and medium businesses across the former Yugoslavia region protect themselves from cyberattacks, even when they have no budget for it.",
+    "ctaPrimary": "Free Assessment",
+    "ctaSecondary": "Our Services",
+    "tickerLabel": "Our Services:",
+    "tickerItems": [
+      "Web Application Penetration Testing",
+      "Cybersecurity Training",
+      "Infrastructure Pentesting",
+      "Security Policies",
+      "Digital Footprint Analysis",
+      "Consulting & Mentorship"
+    ]
+  },
+  "about": {
+    "title": "Who are we?",
+    "pageTitle": "Who is The Free Security and why does it exist?",
+    "missionTitle": "Mission",
+    "missionText": "Our mission is to provide practical cybersecurity protection to small and medium businesses in the former Yugoslavia region that have no budget for commercial security services.",
+    "visionTitle": "Vision",
+    "visionText": "Our vision is a region where no small business is an easy target for attackers simply because they can't afford protection.",
+    "stat": "12+ people trained",
+    "learnMore": "Learn more about us",
+    "heroDesc": "A nonprofit organization helping small businesses in the former Yugoslavia region protect themselves from cyberattacks, even when they have no budget for it.",
+    "whyExistTitle": "Why do we exist?",
+    "whyExistP1": "Cyberattacks don't discriminate. Ransomware doesn't ask if you're a nonprofit before encrypting your data. Phishing doesn't skip small businesses because they have a small budget.",
+    "whyExistP2": "And yet, commercial cybersecurity services are only available to those who can afford them. An assessment for a small company costs between 2,000 and 10,000 euros. For an organization with a limited budget, that's impossible.",
+    "whyExistP3": "The Free Security was born to bridge that gap. If a company truly has no budget for protection, we're here. If they do have resources but don't want to invest them in security, we refer them to professional partners who handle commercial pentest engagements. We're not a replacement for professional pentesters, but we're the right support for those who can't access commercial services.",
+    "whatWeDoTitle": "What do we do?",
+    "whatWeDoItems": ["Web application penetration testing", "Cybersecurity training for teams and individuals", "Infrastructure pentesting and analysis", "Security policies and incident response plans", "Digital footprint analysis (OSINT)", "Consulting and mentorship for organizations"],
+    "foundingTitle": "How did we start?",
+    "foundingP1": "Filip Kecman, founder and executive director, recognized the gap between the need for cyber protection and the availability of professional services for organizations without large budgets.",
+    "foundingP2": "Together with Damjan Cvetanović, who brings years of experience as an advisor, and Dušan Jevtić as mentor and trainer, the team built a structure that combines professional standards with a nonprofit mission.",
+    "foundingP3": "Today, The Free Security has a team of 12+ active interns and volunteers who work together on projects, learn under the mentorship of experienced professionals, and contribute to a safer digital space.",
+    "whoWeAreTitle": "Who are we?",
+    "whoWeAreP1": "We are not a commercial firm or a team of experienced ethical hackers working for free. The Free Security is an organization that guides security testing students through real projects, under direct mentorship from experienced professionals. Students conduct pentest engagements, learn on real cases, and directly contribute to client security.",
+    "whoWeAreP2": "What drives us is a shared goal: that no small business in the region remains unprotected simply because it can't afford the commercial price.",
+    "whyChooseTitle": "Why choose us?",
+    "whyChoose": {
+      "free": { "title": "Free for those who need it", "desc": "We work for free with organizations that have no budget for commercial protection. Others we refer to the right partners." },
+      "expert": { "title": "Expert team", "desc": "Mentors with experience in industrial and offensive security." },
+      "practical": { "title": "Practical approach", "desc": "We present results clearly, without technical jargon." },
+      "privacy": { "title": "Confidentiality", "desc": "All client data is strictly confidential." },
+      "tailored": { "title": "Tailored to you", "desc": "Every service is tailored to your specific needs." },
+      "transparency": { "title": "Transparency", "desc": "We are open about our methodology and results." }
+    },
+    "trainingTitle": "How do we train?",
+    "trainingP1": "Our training program is designed for hands-on learning. Participants don't just listen to theory — they work on real pentest projects with real clients, under direct supervision of experienced mentors.",
+    "trainingP2": "The program is tailored for participants who want to enter the field of security testing. These are students and beginners who build skills through real-world engagements, not simulated environments.",
+    "trainingP3": "Participants receive a recommendation and a portfolio of work that proves their skills and opens career doors in cybersecurity.",
+    "ctaTitle": "Want to get involved?",
+    "ctaDesc": "Whether you need help or want to contribute, we're here.",
+    "openPositions": "Open positions"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Free for SMEs and organizations in the former Yugoslavia region that have no budget for commercial cybersecurity.",
+    "viewAll": "All Services",
+    "cta": "Request for free",
+    "notSure": "Not sure which service you need?",
+    "contactDesc": "Contact us and we'll assess your needs together, free of charge and with no obligations.",
+    "letsTalk": "Let's talk",
+    "items": {
+      "webApp": {
+        "title": "Web Application Penetration Testing",
+        "description": "Comprehensive security assessment of your web applications. We identify OWASP Top 10 vulnerabilities, logic flaws and misconfigurations that attackers can exploit before they do.",
+        "details": ["OWASP Top 10 analysis", "Authentication and authorization testing", "SQL injection and XSS testing", "Business logic vulnerabilities", "API security testing", "Detailed report with prioritized recommendations"]
+      },
+      "training": {
+        "title": "Cybersecurity Training",
+        "description": "Hands-on training tailored to your team or organization. From digital hygiene basics to advanced techniques, we teach you how to recognize and respond to threats.",
+        "details": ["Customized curriculum for your team", "Digital hygiene fundamentals", "Phishing attack recognition", "Secure password and 2FA usage", "Incident response", "Practical exercises and simulations"]
+      },
+      "infra": {
+        "title": "Public Infrastructure Scanning",
+        "description": "Passive and active scanning of your public attack surface. We discover open ports, outdated services and misconfigured systems before attackers find them.",
+        "details": ["Open port and service scanning", "Outdated software detection", "SSL/TLS configuration", "DNS analysis", "Email security (SPF, DKIM, DMARC)", "Report with recommendations"]
+      },
+      "policy": {
+        "title": "Security Policies and Incident Response Plans",
+        "description": "We help you create clear security policies and incident response plans. When an attack happens, you know exactly what to do.",
+        "details": ["Information security policy", "Incident response plan", "Password and access policy", "BYOD policy", "Backup and recovery procedures", "Employee training"]
+      },
+      "footprint": {
+        "title": "Digital Footprint Analysis",
+        "description": "We discover what is publicly available about you or your organization on the internet. Attackers use this information in reconnaissance phases, and we help you reduce your exposure. OSINT analysis at no cost.",
+        "details": ["Passive OSINT gathering", "Leaked data analysis", "Mapping of publicly available information", "Social media and domain analysis", "Shodan and Censys analysis", "Report with footprint reduction recommendations"]
+      },
+      "consulting": {
+        "title": "Cybersecurity Consulting and Mentorship",
+        "description": "Expert advice for organizations looking to improve their security culture. Our mentors guide you through complex decisions and team building.",
+        "details": ["Strategic security plan", "Security maturity assessment", "Security tool procurement advice", "IT team mentorship", "Certification preparation", "Ongoing support"]
+      }
+    }
+  },
+  "whyJoin": {
+    "title": "Why join us?",
+    "subtitle": "Our training program provides real experience in the world of cybersecurity.",
+    "practical": {
+      "title": "Practical Learning",
+      "desc": "Work on real projects and cases, not just theory. Gain experience you can show to employers."
+    },
+    "mentorship": {
+      "title": "Expert Mentorship",
+      "desc": "Work directly with experienced cybersecurity professionals who guide you through every step."
+    },
+    "experience": {
+      "title": "Real Experience",
+      "desc": "Earn certificates and recommendations that validate your skills. Build a portfolio that opens career doors."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are your services really free?",
+    "a1": "Our services are free for small and medium businesses and organizations in the former Yugoslavia region that genuinely have no budget for commercial cybersecurity. Companies that have the resources but simply don't want to spend them on security are referred to our professional partners who handle commercial pentest engagements.",
+    "q2": "Who can use your services?",
+    "a2": "We work with small and medium businesses across the former Yugoslavia region that are easy targets for attackers precisely because they lack the budget for protection. If an organization has the means for commercial security services, we are not the right fit, but we are happy to refer them to the right professionals.",
+    "q3": "How do I request a service?",
+    "a3": "Simply fill out the contact form at /contact or contact us directly via email. We respond within 48 business hours.",
+    "q4": "Do you offer training for beginners?",
+    "a4": "Yes! Our training program is designed for all levels, from complete beginners to experienced IT professionals looking to enter cybersecurity. We tailor content to your existing knowledge.",
+    "q5": "How can I join as a volunteer or intern?",
+    "a5": "Check our Careers page for open positions. We're looking for ethical hackers, marketing professionals and business development partners. All positions are volunteer or with symbolic compensation."
+  },
+  "contactCta": {
+    "title": "Get Protected Today",
+    "text": "Contact us today and get a free assessment of your cybersecurity posture.",
+    "btn": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form and we'll respond within 48 business hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent successfully. We'll respond soon.",
+    "error": "An error occurred. Please try again or contact us directly.",
+    "directEmail": "Or contact us directly:",
+    "thankYou": "Thank you!",
+    "sendNew": "Send another message",
+    "namePlaceholder": "Your full name",
+    "emailPlaceholder": "you@email.com",
+    "messagePlaceholder": "Describe what you need or ask a question...",
+    "emailSubject": "New message"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Experts and enthusiasts building a freer digital world together.",
+    "mentors": "Mentors & Founders",
+    "members": "Team Members",
+    "notFound": "Team member not found",
+    "backToTeam": "Back to team",
+    "memberBioFallback": "is an active member of The Free Security team, contributing to projects as",
+    "contact": "Contact Us",
+    "role": {
+      "founder": "Founder & Executive Director",
+      "advisor": "Advisor",
+      "mentor": "Mentor & Trainer",
+      "pentester": "Penetration Tester Intern",
+      "pentesterFull": "Penetration Tester"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights, analysis and educational content from the world of cybersecurity.",
+    "readMore": "Read more",
+    "by": "Author:",
+    "published": "Published",
+    "notFound": "Article not found",
+    "allArticles": "All articles",
+    "question": "Have a question? Contact us"
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "comingSoon": "Case studies coming soon",
+    "text": "We document our projects and successes. Soon you'll be able to read about specific cases where we helped organizations protect themselves.",
+    "cta": "Contact Us"
+  },
+  "careers": {
+    "title": "Careers",
+    "subtitle": "Join the team changing the cybersecurity scene in the Balkans.",
+    "remote": "Remote",
+    "readMore": "Read more",
+    "apply": "Apply",
+    "notFound": "Position not found",
+    "backToCareers": "Back to careers",
+    "responsibilities": "Responsibilities",
+    "requirements": "What we're looking for",
+    "benefits": "What you get",
+    "allPositions": "All positions",
+    "applyNow": "Apply now",
+    "noPosition": "Don't see a position that fits you?",
+    "openApplication": "Send us an open application, we're always looking for talented people.",
+    "sendOpen": "Send open application"
+  },
+  "footer": {
+    "tagline": "Cybersecurity for those who can't afford it.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "legal": "Legal Information",
+    "mb": "Registration No.",
+    "pib": "Tax ID",
+    "copyright": "© 2025 The Free Security. All rights reserved.",
+    "nonprofit": "Nonprofit organization registered in the Republic of Serbia."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "back": "Back to Home"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Free Security</title>
+    <script>
+      // GitHub Pages SPA redirect: preserve the hash-based route
+      // Since we use HashRouter, all routes are already in the hash.
+      // This 404.html just redirects back to the root, preserving the full URL.
+      var segmentCount = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p>Stranica nije pronađena. <a href="/">Povratak na početnu</a></p>
+    </noscript>
+  </body>
+</html>
