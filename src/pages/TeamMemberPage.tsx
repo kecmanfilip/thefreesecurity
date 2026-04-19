@@ -36,6 +36,32 @@ const memberNames: Record<string, string> = {
   'stefan-vuckovic': 'Stefan Vučković',
   'nina-janeva': 'Nina Janeva',
   'mateja-marjanovic': 'Mateja Marjanović',
+  'aleksandar-kojic': 'Aleksandar Kojić',
+  'aleksandar-lalovic': 'Aleksandar Lalović',
+  'boris-kostadinov': 'Boris Kostadinov',
+  'ilija-pavlovic': 'Ilija Pavlović',
+  'martin-sivc': 'Martin Sivč',
+  'milos-vuksanovic': 'Miloš Vuksanović',
+  'strahinja-grujic': 'Strahinja Grujić',
+  'teodor-jakovljevic': 'Teodor Jakovljević',
+};
+
+const memberRoles: Record<string, string> = {
+  'ivan-mrsulja': 'team.role.pentesterFull',
+  'tigran-parun-filipov': 'team.role.pentesterFull',
+  'relja-mitrovic': 'team.role.pentesterFull',
+  'stefan-vuckovic': 'team.role.pentesterFull',
+};
+
+const memberImageExt: Record<string, string> = {
+  'aleksandar-kojic': 'png',
+  'milos-vuksanovic': 'jpeg',
+  'teodor-jakovljevic': 'jpeg',
+};
+
+const memberImageClass: Record<string, string> = {
+  'stefan-vuckovic': 'object-top',
+  'aleksandar-kojic': 'object-top',
 };
 
 export default function TeamMemberPage() {
@@ -48,10 +74,10 @@ export default function TeamMemberPage() {
   const memberName = memberNames[slug];
 
   const name = mentor?.name || memberName;
-  const roleKey = mentor?.roleKey || 'team.role.pentester';
+  const roleKey = mentor?.roleKey || memberRoles[slug] || 'team.role.pentester';
   const role = t(roleKey);
   const bio = mentor?.bio;
-  const image = `/assets/team/${slug}.jpg`;
+  const image = `/assets/team/${slug}.${memberImageExt[slug] ?? 'jpg'}`;
 
   if (!name) {
     return (
@@ -99,7 +125,7 @@ export default function TeamMemberPage() {
               <img
                 src={image}
                 alt={`${name}, ${role}`}
-                className="w-full h-full object-cover"
+                className={`w-full h-full object-cover ${memberImageClass[slug] ?? ''}`}
                 loading="eager"
                 width="112"
                 height="112"

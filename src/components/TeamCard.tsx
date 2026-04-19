@@ -6,9 +6,10 @@ interface TeamCardProps {
   slug?: string;
   image?: string;
   isMentor?: boolean;
+  imageClass?: string;
 }
 
-export default function TeamCard({ name, role, slug, image, isMentor = false }: TeamCardProps) {
+export default function TeamCard({ name, role, slug, image, isMentor = false, imageClass = '' }: TeamCardProps) {
   const initials = name
     .split(' ')
     .map((n) => n[0])
@@ -23,7 +24,7 @@ export default function TeamCard({ name, role, slug, image, isMentor = false }: 
           <img
             src={image}
             alt={`${name}, ${role}`}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${imageClass}`}
             loading="lazy"
             width="80"
             height="80"

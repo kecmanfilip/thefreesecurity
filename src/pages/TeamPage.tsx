@@ -26,7 +26,7 @@ const mentors = [
   },
 ];
 
-const members = [
+const members: { name: string; slug: string; roleKey?: string; ext?: string; imageClass?: string }[] = [
   { name: 'Ivan Mršulja', slug: 'ivan-mrsulja', roleKey: 'team.role.pentesterFull' },
   { name: 'Nemanja Dutina', slug: 'nemanja-dutina' },
   { name: 'Lefteris Adamou', slug: 'lefteris-adamou' },
@@ -35,9 +35,17 @@ const members = [
   { name: 'Tigran Parun Filipov', slug: 'tigran-parun-filipov', roleKey: 'team.role.pentesterFull' },
   { name: 'Igor Guljaš', slug: 'igor-guljas' },
   { name: 'Relja Mitrović', slug: 'relja-mitrovic', roleKey: 'team.role.pentesterFull' },
-  { name: 'Stefan Vučković', slug: 'stefan-vuckovic' },
+  { name: 'Stefan Vučković', slug: 'stefan-vuckovic', roleKey: 'team.role.pentesterFull', imageClass: 'object-top' },
   { name: 'Nina Janeva', slug: 'nina-janeva' },
   { name: 'Mateja Marjanović', slug: 'mateja-marjanovic' },
+  { name: 'Aleksandar Kojić', slug: 'aleksandar-kojic', ext: 'png', imageClass: 'object-top' },
+  { name: 'Aleksandar Lalović', slug: 'aleksandar-lalovic' },
+  { name: 'Boris Kostadinov', slug: 'boris-kostadinov' },
+  { name: 'Ilija Pavlović', slug: 'ilija-pavlovic' },
+  { name: 'Martin Sivč', slug: 'martin-sivc' },
+  { name: 'Miloš Vuksanović', slug: 'milos-vuksanovic', ext: 'jpeg' },
+  { name: 'Strahinja Grujić', slug: 'strahinja-grujic' },
+  { name: 'Teodor Jakovljević', slug: 'teodor-jakovljevic', ext: 'jpeg' },
 ];
 
 export default function TeamPage() {
@@ -56,7 +64,7 @@ export default function TeamPage() {
     <>
       <SEOHead
         title="Tim | Stručnjaci iza The Free Security"
-        description="Upoznajte tim The Free Security: osnivač Filip Kecman, savetnik Damjan Cvetanović, mentor Dušan Jevtić i 11 posvećenih stažista u sajber bezbednosti."
+        description="Upoznajte tim The Free Security: osnivač Filip Kecman, savetnik Damjan Cvetanović, mentor Dušan Jevtić i posvećeni tim penetration testera i praktikanata u sajber bezbednosti."
         canonical="/team"
       />
       <Helmet>
@@ -115,7 +123,8 @@ export default function TeamPage() {
                   name={m.name}
                   role={t(m.roleKey ?? 'team.role.pentester')}
                   slug={m.slug}
-                  image={`/assets/team/${m.slug}.jpg`}
+                  image={`/assets/team/${m.slug}.${m.ext ?? 'jpg'}`}
+                  imageClass={m.imageClass}
                 />
               ))}
             </div>
