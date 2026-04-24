@@ -56,7 +56,7 @@ const memberRoles: Record<string, string> = {
 const memberImageExt: Record<string, string> = {
   'aleksandar-kojic': 'png',
   'milos-vuksanovic': 'jpeg',
-  'teodor-jakovljevic': 'jpeg',
+  'teodor-jakovljevic': 'jpg',
 };
 
 const memberImageClass: Record<string, string> = {
