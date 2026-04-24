@@ -63,6 +63,8 @@ const memberImageClass: Record<string, string> = {
   'stefan-vuckovic': 'object-top',
   'aleksandar-kojic': 'object-top',
   'teodor-jakovljevic': 'object-top',
+  'anastasija-spasic': 'object-top',
+  'andrija-nikolic': 'object-top',
 };
 
 export default function TeamMemberPage() {
