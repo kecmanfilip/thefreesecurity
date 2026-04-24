@@ -45,7 +45,7 @@ const members: { name: string; slug: string; roleKey?: string; ext?: string; ima
   { name: 'Martin Sivč', slug: 'martin-sivc' },
   { name: 'Miloš Vuksanović', slug: 'milos-vuksanovic', ext: 'jpeg' },
   { name: 'Strahinja Grujić', slug: 'strahinja-grujic' },
-  { name: 'Teodor Jakovljević', slug: 'teodor-jakovljevic', ext: 'jpg' },
+  { name: 'Teodor Jakovljević', slug: 'teodor-jakovljevic', ext: 'jpg', imageClass: 'object-top' },
 ];
 
 export default function TeamPage() {

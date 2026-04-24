@@ -62,6 +62,7 @@ const memberImageExt: Record<string, string> = {
 const memberImageClass: Record<string, string> = {
   'stefan-vuckovic': 'object-top',
   'aleksandar-kojic': 'object-top',
+  'teodor-jakovljevic': 'object-top',
 };
 
 export default function TeamMemberPage() {
