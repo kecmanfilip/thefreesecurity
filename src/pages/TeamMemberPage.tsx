@@ -51,6 +51,7 @@ const memberRoles: Record<string, string> = {
   'tigran-parun-filipov': 'team.role.pentesterFull',
   'relja-mitrovic': 'team.role.pentesterFull',
   'stefan-vuckovic': 'team.role.pentesterFull',
+  'teodor-jakovljevic': 'team.role.pentesterFull',
 };
 
 const memberImageExt: Record<string, string> = {
