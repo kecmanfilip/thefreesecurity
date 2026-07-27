@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet-async';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 import Breadcrumb from '../components/Breadcrumb';
-import { makeBreadcrumbSchema, makeBlogPostSchema } from '../components/JsonLd';
+import FAQAccordion from '../components/FAQAccordion';
+import { makeBreadcrumbSchema, makeBlogPostSchema, makeFAQSchema } from '../components/JsonLd';
 import posts from '../utils/blogPosts';
 
 function applyInline(text: string): string {
@@ -119,6 +120,7 @@ export default function BlogPostPage() {
   const displayTitle = isEn && post.titleEn ? post.titleEn : post.title;
   const displayExcerpt = isEn && post.excerptEn ? post.excerptEn : post.excerpt;
   const displayBody = isEn && post.bodyEn ? post.bodyEn : post.body;
+  const displayFaq = isEn && post.faqEn ? post.faqEn : post.faq;
 
   const blogPostSchema = makeBlogPostSchema({
     title: post.title,
@@ -148,6 +150,7 @@ export default function BlogPostPage() {
               { name: 'Blog', url: '/blog' },
               { name: post.title, url: `/blog/${post.slug}` },
             ]),
+            ...(displayFaq && displayFaq.length ? [makeFAQSchema(displayFaq)] : []),
           ])}
         </script>
         <meta property="article:published_time" content={post.date} />
@@ -200,6 +203,16 @@ export default function BlogPostPage() {
               className="prose-content"
               dangerouslySetInnerHTML={{ __html: renderMarkdown(displayBody) }}
             />
+
+            {/* FAQ */}
+            {displayFaq && displayFaq.length > 0 && (
+              <section className="mt-12" aria-labelledby="post-faq-heading">
+                <h2 id="post-faq-heading" className="text-2xl font-bold text-white mb-4 pb-2 border-b border-white/10">
+                  {t('faq.title')}
+                </h2>
+                <FAQAccordion items={displayFaq} />
+              </section>
+            )}
 
             {/* Footer */}
             <footer className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
