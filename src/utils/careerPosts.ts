@@ -1,7 +1,6 @@
 import job1 from '../content/careers/ethical-hacker';
-import job2 from '../content/careers/marketing-specialist';
-import job3 from '../content/careers/partnership-developer';
 import job4 from '../content/careers/ai-engineer';
+import job5 from '../content/careers/soc-analyst';
 
 export interface Career {
   title: string;
@@ -22,6 +21,6 @@ export interface Career {
   benefitsEn?: string[];
 }
 
-const careers: Career[] = [job1, job4, job2, job3];
+const careers: Career[] = [job1, job4, job5];
 
 export default careers;

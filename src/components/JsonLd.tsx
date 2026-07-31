@@ -146,6 +146,7 @@ export function makePersonSchema(person: {
   jobTitle: string;
   url?: string;
   image?: string;
+  sameAs?: string[];
 }) {
   return {
     '@context': 'https://schema.org',
@@ -158,5 +159,6 @@ export function makePersonSchema(person: {
     },
     url: person.url,
     image: person.image,
+    sameAs: person.sameAs,
   };
 }

@@ -11,18 +11,21 @@ const mentors = [
     roleKey: 'team.role.founder',
     slug: 'filip-kecman',
     image: '/assets/team/filip-kecman.jpg',
+    linkedin: 'https://www.linkedin.com/in/filip-kecman/',
   },
   {
     name: 'Damjan Cvetanović',
     roleKey: 'team.role.advisor',
     slug: 'damjan-cvetanovic',
     image: '/assets/team/damjan-cvetanovic.jpg',
+    linkedin: 'https://www.linkedin.com/in/damjan-cvetanovic-298538195/',
   },
   {
     name: 'Dušan Jevtić',
     roleKey: 'team.role.mentor',
     slug: 'dusan-jevtic',
     image: '/assets/team/dusan-jevtic.jpg',
+    linkedin: 'https://www.linkedin.com/in/dusanjevtic/',
   },
 ];
 
@@ -33,11 +36,9 @@ const members: { name: string; slug: string; roleKey?: string; ext?: string; ima
   { name: 'Anastasija Spasić', slug: 'anastasija-spasic', imageClass: 'object-top' },
   { name: 'Andrija Nikolić', slug: 'andrija-nikolic', imageClass: 'object-top' },
   { name: 'Tigran Parun Filipov', slug: 'tigran-parun-filipov', roleKey: 'team.role.pentesterFull' },
-  { name: 'Igor Guljaš', slug: 'igor-guljas' },
   { name: 'Relja Mitrović', slug: 'relja-mitrovic', roleKey: 'team.role.pentesterFull' },
   { name: 'Stefan Vučković', slug: 'stefan-vuckovic', roleKey: 'team.role.pentesterFull', imageClass: 'object-top' },
   { name: 'Nina Janeva', slug: 'nina-janeva' },
-  { name: 'Mateja Marjanović', slug: 'mateja-marjanovic' },
   { name: 'Aleksandar Kojić', slug: 'aleksandar-kojic', ext: 'png', imageClass: 'object-top' },
   { name: 'Aleksandar Lalović', slug: 'aleksandar-lalovic' },
   { name: 'Boris Kostadinov', slug: 'boris-kostadinov' },
@@ -57,6 +58,7 @@ export default function TeamPage() {
       jobTitle: t(m.roleKey),
       url: `https://thefreesecurity.com/#/team/${m.slug}`,
       image: `https://thefreesecurity.com${m.image}`,
+      sameAs: m.linkedin ? [m.linkedin] : undefined,
     })
   );
 

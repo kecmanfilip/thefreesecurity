@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Linkedin } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 import Breadcrumb from '../components/Breadcrumb';
 import { makeBreadcrumbSchema, makePersonSchema } from '../components/JsonLd';
@@ -31,11 +31,9 @@ const memberNames: Record<string, string> = {
   'anastasija-spasic': 'Anastasija Spasić',
   'andrija-nikolic': 'Andrija Nikolić',
   'tigran-parun-filipov': 'Tigran Parun Filipov',
-  'igor-guljas': 'Igor Guljaš',
   'relja-mitrovic': 'Relja Mitrović',
   'stefan-vuckovic': 'Stefan Vučković',
   'nina-janeva': 'Nina Janeva',
-  'mateja-marjanovic': 'Mateja Marjanović',
   'aleksandar-kojic': 'Aleksandar Kojić',
   'aleksandar-lalovic': 'Aleksandar Lalović',
   'boris-kostadinov': 'Boris Kostadinov',
@@ -68,6 +66,18 @@ const memberImageClass: Record<string, string> = {
   'andrija-nikolic': 'object-top',
 };
 
+const memberLinkedin: Record<string, string> = {
+  'filip-kecman': 'https://www.linkedin.com/in/filip-kecman/',
+  'damjan-cvetanovic': 'https://www.linkedin.com/in/damjan-cvetanovic-298538195/',
+  'dusan-jevtic': 'https://www.linkedin.com/in/dusanjevtic/',
+  'teodor-jakovljevic': 'https://www.linkedin.com/in/teodor-jakovljevi%C4%87/',
+  'ivan-mrsulja': 'https://www.linkedin.com/in/ivan-mr%C5%A1ulja-6350381b9/',
+  'martin-sivc': 'https://www.linkedin.com/in/martinsivc/',
+  'strahinja-grujic': 'https://www.linkedin.com/in/strahinja-grujic-311499360/',
+  'milos-vuksanovic': 'https://www.linkedin.com/in/milos-vuksanovic-337269189/',
+  'relja-mitrovic': 'https://www.linkedin.com/in/relja-mitrovic/',
+};
+
 export default function TeamMemberPage() {
   const { slug } = useParams<{ slug: string }>();
   const { t } = useTranslation();
@@ -82,6 +92,7 @@ export default function TeamMemberPage() {
   const role = t(roleKey);
   const bio = mentor?.bio;
   const image = `/assets/team/${slug}.${memberImageExt[slug] ?? 'jpg'}`;
+  const linkedin = memberLinkedin[slug];
 
   if (!name) {
     return (
@@ -97,6 +108,7 @@ export default function TeamMemberPage() {
     jobTitle: role,
     url: `https://thefreesecurity.com/#/team/${slug}`,
     image: `https://thefreesecurity.com${image}`,
+    sameAs: linkedin ? [linkedin] : undefined,
   });
 
   return (
@@ -144,7 +156,19 @@ export default function TeamMemberPage() {
             </div>
 
             <h1 className="text-3xl font-bold text-white mb-2">{name}</h1>
-            <p className="text-blue-bright font-medium mb-6">{role}</p>
+            <p className="text-blue-bright font-medium mb-2">{role}</p>
+
+            {linkedin && (
+              <a
+                href={linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${name} na LinkedIn-u`}
+                className="inline-flex items-center justify-center w-9 h-9 mb-6 rounded-full bg-white/5 border border-white/10 text-slate-300 hover:text-blue-bright hover:border-blue-brand/40 transition-colors"
+              >
+                <Linkedin size={18} aria-hidden="true" />
+              </a>
+            )}
 
             {bio ? (
               <p className="text-slate-300 leading-relaxed text-left">{bio}</p>

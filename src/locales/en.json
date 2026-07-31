@@ -42,7 +42,7 @@
     "whatWeDoTitle": "What do we do?",
     "whatWeDoItems": ["Web application penetration testing", "Cybersecurity training for teams and individuals", "Infrastructure pentesting and analysis", "Security policies and incident response plans", "Digital footprint analysis (OSINT)", "Consulting and mentorship for organizations"],
     "foundingTitle": "How did we start?",
-    "foundingP1": "Filip Kecman, founder and executive director, recognized the gap between the need for cyber protection and the availability of professional services for organizations without large budgets.",
+    "foundingP1": "Filip Kecman, founder and CEO, recognized the gap between the need for cyber protection and the availability of professional services for organizations without large budgets.",
     "foundingP2": "Together with Damjan Cvetanović, who brings years of experience as an advisor, and Dušan Jevtić as mentor and trainer, the team built a structure that combines professional standards with a nonprofit mission.",
     "foundingP3": "Today, The Free Security has a team of 12+ active interns and volunteers who work together on projects, learn under the mentorship of experienced professionals, and contribute to a safer digital space.",
     "whoWeAreTitle": "Who are we?",
@@ -58,7 +58,7 @@
       "transparency": { "title": "Transparency", "desc": "We are open about our methodology and results." }
     },
     "trainingTitle": "How do we train?",
-    "trainingP1": "Our training program is designed for hands-on learning. Participants don't just listen to theory — they work on real pentest projects with real clients, under direct supervision of experienced mentors.",
+    "trainingP1": "Our training program is designed for hands-on learning. Participants don't just listen to theory, they work on real pentest projects with real clients, under direct supervision of experienced mentors.",
     "trainingP2": "The program is tailored for participants who want to enter the field of security testing. These are students and beginners who build skills through real-world engagements, not simulated environments.",
     "trainingP3": "Participants receive a recommendation and a portfolio of work that proves their skills and opens career doors in cybersecurity.",
     "ctaTitle": "Want to get involved?",
@@ -168,7 +168,7 @@
     "memberBioFallback": "is an active member of The Free Security team, contributing to projects as",
     "contact": "Contact Us",
     "role": {
-      "founder": "Founder & Executive Director",
+      "founder": "Founder & CEO",
       "advisor": "Advisor",
       "mentor": "Mentor & Trainer",
       "pentester": "Penetration Tester Intern",

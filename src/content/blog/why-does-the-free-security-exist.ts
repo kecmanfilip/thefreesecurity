@@ -8,7 +8,7 @@ const post: BlogPost = {
   author: "Filip Kecman",
   coverImage: "/assets/images/freesec-logo.png",
   excerpt: "The Free Security nije nastao iz poslovnog plana, nastao je iz frustracije. Evo iskrena priča o tome zašto smo odlučili da sajber bezbednost učinimo dostupnom svima, bez naplate.",
-  excerptEn: "The Free Security wasn't born from a business plan — it was born from frustration. Here's the honest story of why we decided to make cybersecurity accessible to everyone, free of charge.",
+  excerptEn: "The Free Security wasn't born from a business plan, it was born from frustration. Here's the honest story of why we decided to make cybersecurity accessible to everyone, free of charge.",
   body: `Da li ste znali da su neke od zemalja našeg regiona ocenjene kao najranjivije na sajber napade u celoj Evropi?
 
 Ako vas to iznenađuje, niste jedini. Problem leži u "potpunom nedostatku svesti o sajber bezbednosti." Zbog toga se napadi prećutkuju da bi se sačuvala reputacija, a kompanije, posebno mala i srednja preduzeća koja su naš fokus, vide bezbednost kao skup trošak, a ne kao ključno ulaganje.
